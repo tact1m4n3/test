@@ -23,7 +23,7 @@ server = Server("localhost", 77666) # ip and port number
 def say_hello(req, res):
     res.body = "Hello"
 ```
-- After that, use the server's methods get or post to map an address to your function(get and post are types of requests)
+- After that, use the server's methods get and post to map an address to your function(get and post are types of requests)
 ```
 server.get("/hello", say_hello)
 ```
