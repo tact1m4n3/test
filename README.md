@@ -31,3 +31,5 @@ server.get("/hello", say_hello)
 ```
 server.run()
 ```
+
+### For more examples check out the files in this repository
